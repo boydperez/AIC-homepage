@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	background-color: #a1e6e3;
+	text-align: center;
+}
+
+
+nav {
+	background-color: #d7fffd;
+}
+
+.nav-brand-text {
+	color: #197163;
+}
+
+.nav-button {
+	background-color: #197163;
+	border: 0;
+	border-radius: 5px;
+}
+
+.nav-button:hover {
+	background-color: #158467;
+}
+
+
+.section-1 {
+	padding: 3.7em 4.5em;
+}
+
+.heading-text {
+	font-family: 'Roboto Slab', serif;
+	color: #065446;
+	padding-bottom: 0.8em;
+}
+
+.heading-subtext {
+	font-family: 'Lato', sans-serif;
+	color: #363636;
+}
+
+
+
+hr {
+	border-bottom: 0.3px solid #158415;
+	width: 30%;
+	margin-bottom: 30px;
+}
+
+
+
+
+.section-2 {
+	padding: 3.7em 4.5em;
+}
+
+
+h5 {
+	font-family: 'Bree Serif', serif;
+	color: #197163;
+	margin-bottom: 40px;
+}
+
+.list-group {
+	background-color: #d9adad; 
+	border-radius: 10px;
+	padding: 40px;
+}
+
+.list {
+	font-family: 'Open Sans', sans-serif;
+	color: #363636;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+.start-btn {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.btn-lg {
+	background-color: #197163;
+	padding: 12px 28px;
+	border: 0;
+	border-radius: 5px;
+}
+
+.btn-lg:hover {
+	background-color: #158467;
+}
+
+
+
+
+
+
+footer {
+	background-color: #519872;
+	padding: 40px;
+	margin-top: 60px;
+}
+
+.footer-text {
+	text-transform: capitalize;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 35px;
+}
+
+
+.fa {
+	color: #065446;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.fa:hover {
+	color: #065446;
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+.fa-instagram {
+	margin-right: 80px;
+	margin-left: auto;
+}
+
+.fa-whatsapp {
+	margin-right: auto;
+	/* margin-left: 40px; */
+}
+
