@@ -4,7 +4,6 @@ body {
 	text-align: center;
 }
 
-
 nav {
 	background-color: #d7fffd;
 }
@@ -90,7 +89,6 @@ h5 {
 
 .start-btn {
 	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .btn-lg {
@@ -111,7 +109,7 @@ h5 {
 
 footer {
 	background-color: #519872;
-	padding: 30px;
+	padding: 20px;
 	margin-top: 60px;
 }
 
@@ -121,6 +119,17 @@ footer {
 	margin-bottom: 35px;
 	color: #363636;
 }
+
+.AIC-logo-div {
+	margin-top: 50px;
+	/* color: #050505; */
+}
+
+.AIC-logo {
+	width: 25px;
+	height: 25px;
+}
+
 
 
 .fa {
