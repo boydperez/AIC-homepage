@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" type="image/png" href="media/logo2.png" />
+  <link rel="icon" type="image/png" href="media/andrews.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -23,14 +23,17 @@
   <!-- External Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- JQuery 3.5.x
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
   <title>Aloha</title>
 </head>
 
 <body>
   <!-- Image and text -->
-  <nav class="navbar ">
+  <nav class="navbar">
     <a class="navbar-brand">
-      <img class="d-inline-block" src="media/logo2.png" width="65" height="60" alt="" loading="lazy">
+      <img class="d-inline-block" src="media/andrews.png" width="65" height="60" alt="" loading="lazy">
       <span class="nav-brand-text">Andrean IT Club</span>
     </a>
 
@@ -46,7 +49,7 @@
 
   <div class="section-1">
     <h2 class="heading-text">Andrean IT Club Presents</h2>
-    <p class="heading-subtext">This is an Interactive game created by the ANDREAN IT CLUB. <br>
+    <p class="heading-subtext">This is an Interactive game created by the <span class="span-title">ANDREAN IT CLUB</span>. <br>
       We hope you enjoy it.</p>
   </div>
 
@@ -56,7 +59,7 @@
   <div class="section-2">
     <h5>RULES</h5>
     <div class="container list-group">
-      <p class="list">You have to figure out the answers to the puzzles and entervit in the dialogue box.</p>
+      <p class="list">You have to figure out the answers to the puzzles and enter it in the dialogue box.</p>
       <p class="list">You will be scored for each level.</p>
       <p class="list">You can use external help such as the internet.</p>
       <p class="list">You will be timed</p>
@@ -81,13 +84,18 @@
         <p>Get in touch with us</p>
       </div>
       <div>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="https://instagram.com/andrean_it_club?igshid=o8v95lqk0e1z" class="fa fa-instagram"></a>
+        <a onclick=copyToClipboard() href="#" class="fa fa-whatsapp"></a>
       </div>
     </div>
   </footer>
 
 
+  <script>
+    function copyToClipboard() {
+      alert('Whatsapp: 9112345')
+    }
+  </script>
 
 
   <!-- Bootstrap JS-->

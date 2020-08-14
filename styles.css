@@ -9,8 +9,13 @@ nav {
 	background-color: #d7fffd;
 }
 
+.navbar {
+	padding: 20px;
+}
+
 .nav-brand-text {
 	color: #197163;
+	font-family: 'Roboto Slab', serif;
 }
 
 .nav-button {
@@ -39,6 +44,10 @@ nav {
 	color: #363636;
 }
 
+.span-title {
+	color: #ba7967;
+}
+
 
 
 hr {
@@ -51,12 +60,13 @@ hr {
 
 
 .section-2 {
-	padding: 3.7em 4.5em;
+	padding: 3.7em 3.5em;
 }
 
 
 h5 {
 	font-family: 'Bree Serif', serif;
+	font-size: 32px;
 	color: #197163;
 	margin-bottom: 40px;
 }
@@ -101,7 +111,7 @@ h5 {
 
 footer {
 	background-color: #519872;
-	padding: 40px;
+	padding: 30px;
 	margin-top: 60px;
 }
 
@@ -109,6 +119,7 @@ footer {
 	text-transform: capitalize;
 	font-family: 'Merriweather', serif;
 	margin-bottom: 35px;
+	color: #363636;
 }
 
 
